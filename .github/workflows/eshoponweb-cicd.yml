@@ -3,11 +3,11 @@ name: eShopOnWeb Build and Test
 on: workflow_dispatch
 
 env:
-  RESOURCE-GROUP: rg-eshoponweb-denmark # <-- wpisz swoją grupę
+  RESOURCE-GROUP: AustriaEast # <-- wpisz swoją grupę
   LOCATION: austriaeast                 # lub denmarkeast
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: f5682f48-0191-472b-97b0-ca87b4cfe32b # <-- Twój subscription id
-  WEBAPP-NAME: twojanazwa-denmark       # <-- Twoja nazwa webapp
+  WEBAPP-NAME: twojanazwa-austria       # <-- Twoja nazwa webapp
 
 jobs:
   buildandtest:
