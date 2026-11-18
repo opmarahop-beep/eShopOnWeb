@@ -55,9 +55,6 @@ jobs:
     permissions:
       id-token: write
       contents: read
-    environment:
-      name: "Development"
-    steps:
       #Download the publish files created in previous job
       - name: Download artifact from build job
         uses: actions/download-artifact@v6
